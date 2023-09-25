@@ -14,7 +14,7 @@
 	<name>reactive-programming</name>
 	<description>Demo project to learn reactive programming</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
