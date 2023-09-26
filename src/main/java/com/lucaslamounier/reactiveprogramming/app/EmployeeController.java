@@ -28,4 +28,9 @@ public class EmployeeController {
     public Flux<Employee> getAllEmployees() {
         return employeeRepository.findAllEmployees();
     }
+
+    @GetMapping("/testFlux")
+    public void testFlux() {
+        employeeRepository.testFlux();
+    }
 }
